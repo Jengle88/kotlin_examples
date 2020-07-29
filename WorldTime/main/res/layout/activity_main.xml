@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/root_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#efe5ed"
+    android:orientation="vertical"
+    android:padding="13dp">
+
+    <TextView
+        android:id="@+id/cho_time"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_row="0"
+        android:layout_column="0"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="3dp"
+        android:layout_marginBottom="10dp"
+        android:paddingTop="20dp"
+        android:paddingLeft="10dp"
+        android:paddingEnd="10dp"
+        android:paddingBottom="20dp"
+        android:text="Choose a time"
+        android:textColor="#ff0000"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/user_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_row="0"
+        android:layout_column="1"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:padding="20dp"
+        android:text="Your Time(tap)"
+        android:textColor="#ff0000"
+        android:textSize="20sp"
+        android:textStyle="italic" />
+
+    <TextView
+        android:id="@+id/moscow"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_row="1"
+        android:layout_column="0"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="3dp"
+        android:layout_marginBottom="10dp"
+        android:padding="20dp"
+        android:text="Moscow"
+        android:textColor="#9C27B0"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/mosc_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_row="1"
+        android:layout_column="1"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:padding = "20dp"
+        android:text="Choose a time"
+        android:textSize="20sp"
+        android:textColor="#9C27B0"
+        android:textStyle="italic" />
+
+    <TextView
+        android:id="@+id/paris"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_row="2"
+        android:layout_column="0"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="3dp"
+        android:layout_marginBottom="10dp"
+        android:padding="20dp"
+        android:text="Paris"
+        android:textColor="#4CAF50"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/par_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_row="2"
+        android:layout_column="1"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:padding = "20dp"
+        android:text="Choose a time"
+        android:textSize="20sp"
+        android:textColor="#4CAF50"
+        android:textStyle="italic" />
+
+    <TextView
+        android:id="@+id/dubai"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_row="3"
+        android:layout_column="0"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="3dp"
+        android:layout_marginBottom="10dp"
+        android:padding="20dp"
+        android:text="Dubai"
+        android:textColor="#FF5722"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/dub_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_row="3"
+        android:layout_column="1"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:padding = "20dp"
+        android:text="Choose a time"
+        android:textSize="20sp"
+        android:textColor="#FF5722"
+        android:textStyle="italic" />
+
+    <TextView
+        android:id="@+id/london"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_row="4"
+        android:layout_column="0"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="5sp"
+        android:layout_marginBottom="10dp"
+        android:padding="20dp"
+        android:text="London"
+        android:textSize="20sp"
+        android:textColor="#009688"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/lon_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_row="4"
+        android:layout_column="1"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:padding = "20dp"
+        android:text="Choose a time"
+        android:textSize="20sp"
+
+        android:textColor="#009688"
+        android:textStyle="italic" />
+
+    <Button
+        android:id="@+id/showtime"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_row="5"
+        android:layout_column="0"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="5dp"
+        android:text="Show World Time" />
+
+    <Spinner
+        android:id="@+id/selectzone"
+        android:layout_width="172dp"
+        android:layout_height="41dp"
+        android:layout_row="5"
+        android:layout_column="1"
+        android:layout_marginTop="5dp"
+        android:spinnerMode="dialog"
+        android:entries="@array/Hours" />
+
+</GridLayout>
