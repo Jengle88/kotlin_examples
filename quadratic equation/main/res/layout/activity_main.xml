@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:paddingLeft="16dp"
+android:paddingRight="16dp"
+android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/aValue"
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"
+        android:ems="10"
+        android:hint="A" />
+
+    <EditText
+        android:id="@+id/bValue"
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:layout_row="1"
+        android:layout_column="0"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="16dp"
+        android:ems="10"
+        android:hint="B" />
+
+    <EditText
+        android:id="@+id/cValue"
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:layout_row="2"
+        android:layout_column="0"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="20dp"
+        android:ems="10"
+        android:hint="C" />
+
+    <EditText
+        android:id="@+id/x1Value"
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:layout_row="3"
+        android:layout_column="0"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="16dp"
+        android:ems="10"
+        android:hint="X1" />
+
+    <EditText
+        android:id="@+id/x2Value"
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:layout_row="4"
+        android:layout_column="0"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:ems="10"
+        android:hint="X2" />
+
+    <TextView
+        android:id="@+id/isSolutionExist"
+        android:layout_width="107dp"
+        android:layout_height="29dp"
+        android:layout_row="0"
+        android:layout_column="6"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:ems="10"
+        android:hint="result"
+
+        android:textAllCaps="true" />
+
+    <Button
+        android:id="@+id/editorbut"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_row="1"
+        android:layout_column="6"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="5dp"
+        android:text="Edit Mode" />
+
+</GridLayout>
